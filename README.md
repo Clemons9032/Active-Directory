@@ -1,4 +1,3 @@
 <p align="center>"
 
-  
-<img src="images/AD.png"/>
+ [![My Skills](https://skillicons.dev/icons?i=azure,windows)](https://skillicons.dev)
