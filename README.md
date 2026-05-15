@@ -44,9 +44,7 @@ This is a project showcasing how to set up an active directory environment using
 <p>So we're going to make our vm using the azure portal. Click on virtual machines and select create new. I'm going to name my vm client1 but if you're following along, you can name your vm whatever you want. Just make sure it's easy enough for you to remember the purpose of each vm. I'm going to place this vm in East US 2 region.
 
 **Notes**
- 
- 
- So there's a tab called resource groups and this is where i'm going to put my domain controller and my client1 vm. The reason for this is because it's the only way I can get these two vms to properly communicate with each other. If the vms are in two different resource groups then they won't be able to communicate and I wouldn't be able to join my client to the domanin controller so it's very important to put both virtual machines in the same resource group. I chose the name Active_Directory_Lab for my resource group for ease of use.
+So there's a tab called resource groups and this is where i'm going to put my domain controller and my client1 vm. The reason for this is because it's the only way I can get these two vms to properly communicate with each other. If the vms are in two different resource groups then they won't be able to communicate and I wouldn't be able to join my client to the domanin controller so it's very important to put both virtual machines in the same resource group. I chose the name Active_Directory_Lab for my resource group for ease of use.
 
 
 
