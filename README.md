@@ -1,3 +1,56 @@
-<p align="center>"
+<p align="center">
+
+ 
+<img width="866" height="650" alt="image" src="https://github.com/user-attachments/assets/5e7866cc-ac94-4540-8b0b-ef76f1e59b3a" />
+
+<h1>Active Directory- High level Installation and Deployment
+This is a project showcasing how to set up an active directory environment using microsoft's azure cloud infrastructure. This project will also be accompanied with a full video breakdown linked to my youtube channel.
+
+<h2>Video Demonstration</h2>
+
+
 
  [![My Skills](https://skillicons.dev/icons?i=azure,windows)](https://skillicons.dev)
+
+
+ 
+ -Microsoft Azure
+ 
+ -Remote Desktop Protocol
+ 
+ -Windows Server 2022
+
+ Operating Systems Used </h2>
+
+
+ <img width="700" height="417" alt="image" src="https://github.com/user-attachments/assets/2a5f0107-6016-4887-be55-035130165652" />
+
+
+<h2>List of Prerequisites</h2>
+
+
+-Microsoft Azure Account
+
+-2 Virtual Machines
+
+<h2>High-Level Deployment and Installation Steps</h2>
+
+
+> [!Important]
+> Each step will include written instructions and corresponding screenshots. Expand the See Screenshots section to view the images and progress through the portfolio.
+
+
+<h3>1. Create Windows 11 VM <h3>
+<p>So we're going to make our vm using the azure portal. Click on virtual machines and select create new. I'm going to name my vm client1 but if you're following along, you can name your vm whatever you want. Just make sure it's easy enough for you to remember the purpose of each vm. I'm going to place this vm in East US 2 region.
+
+**Notes**
+ 
+ 
+ So there's a tab called resource groups and this is where i'm going to put my domain controller and my client1 vm. The reason for this is because it's the only way I can get these two vms to properly communicate with each other. If the vms are in two different resource groups then they won't be able to communicate and I wouldn't be able to join my client to the domanin controller so it's very important to put both virtual machines in the same resource group. I chose the name Active_Directory_Lab for my resource group for ease of use.
+
+
+
+For the iso, i'm going to choose the windows 11 operating system. After the iso has been chosen, I'm going to choose a username and password for my login credentials. After I've typed in my credentials, I'm going to continue to the bottom and make sure to check box asking if I have a windows image. 
+
+After
+
