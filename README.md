@@ -43,12 +43,29 @@ This is a project showcasing how to set up an active directory environment using
 <h3>1. Create Windows 11 VM <h3>
 <p>So we're going to make our vm using the azure portal. Click on virtual machines and select create new. I'm going to name my vm client1 but if you're following along, you can name your vm whatever you want. Just make sure it's easy enough for you to remember the purpose of each vm. I'm going to place this vm in East US 2 region.
 
+<details><summary>See screenshots</summary>
+<img src="images/AD_Step19.png" >
+</details>
+
 **Notes**
 So there's a tab called resource groups and this is where i'm going to put my domain controller and my client1 vm. The reason for this is because it's the only way I can get these two vms to properly communicate with each other. If the vms are in two different resource groups then they won't be able to communicate and I wouldn't be able to join my client to the domanin controller so it's very important to put both virtual machines in the same resource group. I chose the name Active_Directory_Lab for my resource group for ease of use.
 
+<details><summary>See screenshots</summary>
+<img src="images/AD_Step3.png" >
+</details>
 
 
-For the iso, i'm going to choose the windows 11 operating system. After the iso has been chosen, I'm going to choose a username and password for my login credentials. After I've typed in my credentials, I'm going to continue to the bottom and make sure to check box asking if I have a windows image. 
 
-After
+For the iso, i'm going to choose the windows 10 operating system. After the iso has been chosen, I'm going to choose a username and password for my login credentials. After I've typed in my credentials, I'm going to continue to the bottom and make sure to check box asking if I have a windows image. 
+
+<details><summary>See screenshots</summary>
+<img src="images/AD_Step20.png" >
+</details>
+
+
+
+<details><summary>See screenshots</summary>
+<img src="images/AD_Step21.png" >
+</details>
+
 
