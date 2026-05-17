@@ -97,5 +97,25 @@ So after checking sure that the vm is in the right virtual network, just go to r
 <img src="images/AD_Step4.png" >
 </details>
 
+Choose a username and password to login with on the virtual machine. Just make sure to write it down in notepad so you don't forget it. After that, go to the bottom of the page and click on the acceptance button
 
+
+<details><summary>See screenshots</summary>
+<img src="images/AD_Step5.png" >
+</details>
+
+
+After choosing your credentials, finish up by navigating to the bottom of the page and clicking the license agreement that asks if you have a windows install license. Next click on the network tab and make sure it's in the proper virtual network that the client vm is located in. Now click on review & create and once the validation check has passed, continue to creating your vm.
+
+
+
+<details><summary>See screenshots</summary>
+<img src="images/AD_Step6.png" >
+</details>
+
+
+
+<details><summary>See screenshots</summary>
+<img src="images/AD_Step7.png" >
+</details>
 
