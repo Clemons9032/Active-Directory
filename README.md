@@ -83,3 +83,19 @@ So after checking sure that the vm is in the right virtual network, just go to r
 <img src="images/AD_Step33.png" >
 </details>
 
+
+<h3> Step 2. Create DC Virtual Machine
+<p>Now I'm going to set up the Domain Controller using Windows Server 2022. Click on the virtual machines tab and click create new virtual machine. I named my Domain Virtual machine DC-1. I'm going to choose the Active_Directory_Lab resource group again for this virtual machine. It has to stay in the same resource group as my client1 vm.
+
+
+<details><summary>See screenshots</summary>
+<img src="images/AD_Step3.png" >
+</details>
+
+
+<details><summary>See screenshots</summary>
+<img src="images/AD_Step4.png" >
+</details>
+
+
+
