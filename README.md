@@ -72,5 +72,14 @@ For the iso, i'm going to choose the windows 10 operating system. After the iso 
 Next, I'm going to go to the network tab and make sure that both vms that are created are in the same virtual network. If it's not in the same virtual network then they won't be able to communicate with each other when it's time to set up the Active Directory.
 
 <details><summary>See screenshots</summary>
-<img src="images/AD_Step3.png" >
+<img src="images/AD_Step32.png" >
 </details>
+
+
+So after checking sure that the vm is in the right virtual network, just go to review and create and azure will start a final validation. Once the validation completes, then we can start to create the virtual machine.
+
+
+<details><summary>See screenshots</summary>
+<img src="images/AD_Step33.png" >
+</details>
+
