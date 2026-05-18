@@ -192,3 +192,32 @@ After I turn the firewall off on DC-1, I'm going to configure client1 dns server
 <details><summary>See screenshots</summary>
 <img src="images/AD_Step25.png" >
 </details>
+
+<h3>3. Log into client1
+I'm going to get the public ip address of client 1 and remote desktop into the vm. Once inside of client1, I'm going to open powershell and ping my domain controller ip address. It should respond back with 4 replies showing that I'm able to communicate with my domain controller. Next, I'm going to check the and make sure that my DNS server is pointing to DC-1 private ip address. I'm going to type ipconfig /all into powershell. It should bring up the current configurations for my ip. I'm going to look for DNS server and make sure it matches the private ip address of my domain controller. After confirming, It's time to install Active Directory onto my domain controller. 
+
+
+
+<details><summary>See screenshots</summary>
+<img src="images/AD_Step29.png" >
+</details>
+
+
+
+<details><summary>See screenshots</summary>
+<img src="images/AD_Step30.png" >
+</details>
+
+
+<details><summary>See screenshots</summary>
+<img src="images/AD_Step31.png" >
+</details>
+
+<details><summary>See screenshots</summary>
+<img src="images/AD_Step34.png" >
+</details>
+
+
+
+> [!Important]
+> I'm going to continue the installation documentation of Active Directory in another portfolio. In order to get the best understanding of the following steps, make sure to read this documentation before continuing to the next portfolio
