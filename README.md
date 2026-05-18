@@ -142,4 +142,25 @@ Once Azure has finished deploying the Windows Server VM, I'm going to go and set
 <img src="images/AD_Step11.png" >
 </details>
 
+Now that I've turned the ip address of DC-1 machine into a static ip address, I'm going to log into my DC-1 vm. Once logged in, the Windows Server manager will appear and from there, I'm going to turn off the firewall to test the connection to the DC-1 from my windows 10 client machine. Click on tools on the right side of the screen in windows server and slide all the way down until you see windows defender security with advanced firewall settings. After that I'm going to turn off windows firewall defender on the domain profile, public profile, and private profile.
 
+
+
+<details><summary>See screenshots</summary>
+<img src="images/AD_Step16.png" >
+</details>
+
+
+
+<details><summary>See screenshots</summary>
+<img src="images/AD_Step17.png" >
+</details>
+
+
+
+<details><summary>See screenshots</summary>
+<img src="images/AD_Step18.png" >
+</details>
+<details><summary>See screenshots</summary>
+<img src="images/AD_Step33.png" >
+</details>
