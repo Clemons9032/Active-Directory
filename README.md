@@ -164,3 +164,31 @@ Now that I've turned the ip address of DC-1 machine into a static ip address, I'
 <details><summary>See screenshots</summary>
 <img src="images/AD_Step33.png" >
 </details>
+
+
+After I turn the firewall off on DC-1, I'm going to configure client1 dns server to point it to my domain controller. I'm going to click on virtual machines in azure and double-click on client1. Next i'm going to scroll to the networking tab on the left side of the screen and click on network settings. After that I'm going to click on the network interface tab and then click on the DNS servers tab. Once I'm in the DNS servers tab, I'm going to check the custom box to change the dns server from the inherited server given by azure. I'm going to point the DNS server to my Domain Controller private IP address.
+
+
+
+
+<details><summary>See screenshots</summary>
+<img src="images/AD_Step22.png" >
+</details>
+
+
+
+<details><summary>See screenshots</summary>
+<img src="images/AD_Step23.png" >
+</details>
+
+
+
+<details><summary>See screenshots</summary>
+<img src="images/AD_Step24.png" >
+</details>
+
+
+
+<details><summary>See screenshots</summary>
+<img src="images/AD_Step25.png" >
+</details>
