@@ -119,3 +119,27 @@ After choosing your credentials, finish up by navigating to the bottom of the pa
 <img src="images/AD_Step7.png" >
 </details>
 
+<h3>Step3. Configure Static IP on Domanin Controller
+
+
+Once Azure has finished deploying the Windows Server VM, I'm going to go and set it up as a static IP. The reason for this is because I don't need the IP address changing because it'll make it harder for clients that's in the domain to communicate with Active Directory Services if it can't properly connect to the AD Server. In order to do that, I'm going to click on the DC-1 VM and on the next screen, I'm going to double click on the networking tab on the left side of the screen. On the next screen, click on the Networking Security Group.
+
+
+
+<details><summary>See screenshots</summary>
+<img src="images/AD_Step9.png" >
+</details>
+
+
+
+<details><summary>See screenshots</summary>
+<img src="images/AD_Step10.png" >
+</details>
+
+
+
+<details><summary>See screenshots</summary>
+<img src="images/AD_Step11.png" >
+</details>
+
+
